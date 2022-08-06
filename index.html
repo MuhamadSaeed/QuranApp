@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/icon.webp">
+    <link rel="stylesheet" href="cssFiles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200;300;400;500;700;800;900&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200;300;400;500;700;800;900&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="main.js" defer></script>
+    <title>فَسَتُبْصِرُ وَيُبْصِرُونَ</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">فَسَتُبْصِرُ وَيُبْصِرُونَ </div>
+        <!-- <div class="logo"> خَافِضَةٌ رَّافِعَةٌ</div> -->
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links">
+            <li><a href="#quran">القرآن</a></li>
+            <li><a href="#azkar">الأذكار</a></li>
+            <li><a href="#prayTime">أوقات الصلاه</a></li>
+        </ul>
+        <div class="smLinks">
+            <ul>
+                <li><a href="#quran">القرآن</a></li>
+                <li><a href="#azkar">الأذكار</a></li>
+                <li><a href="#prayTime">أوقات الصلاه</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="over"></div>
+        <div class="info">
+            <h2>مرحبا بك !</h2>
+            <div class="btns">
+                <button>القرآن</button>
+                <button>الأذكار</button>
+            </div>
+        </div>
+    </header>
+    <section class="random">
+        <div class="para"></div>
+    </section>
+    <section class="quran" id="quran">
+        <div class="cont"><h2>القرآن</h2></div>
+        <div class="boxs">
+        </div>
+        <div class="popup">
+            <div class="close"><span></span><span></span></div>
+            <div class="open">play</div>
+            <div class="data">
+            </div>
+        </div>
+    </section>
+    <audio controls src="https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <section class="random" style="padding: 50px 0px;">
+        <div class="para"></div>
+    </section>
+      <section class="azkar" id="azkar">
+        <div class="cont"><h2>أذكار</h2></div>
+        <div class="tabs">
+            <div class="tab" data-cat="أذكار الصباح">أذكار الصباح</div>
+            <div class="tab" data-cat="أذكار المساء">أذكار المساء</div>
+        </div>
+        <div class="content">
+            <div class="boxs">
+            </div>
+        </div>
+      </section>
+      <section class="random" style="padding: 50px 0px;">
+        <div class="para"></div>
+    </section>
+      <section class="prayTime" id="prayTime">
+        <div class="cont"><h2>أوقات الصلاه</h2></div>
+        <div class="boxsPray">
+        </div>
+      </section>
+      <footer>
+        <div class="background">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#123c69" fill-opacity="1" d="M0,128L26.7,144C53.3,160,107,192,160,186.7C213.3,181,267,139,320,154.7C373.3,171,427,245,480,240C533.3,235,587,149,640,122.7C693.3,96,747,128,800,154.7C853.3,181,907,203,960,208C1013.3,213,1067,203,1120,176C1173.3,149,1227,107,1280,106.7C1333.3,107,1387,149,1413,170.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>        </div>
+        <div class="info">
+            <div class="icons">
+                <a href="https://github.com/MuhamadSaeed" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/01020453180" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="last">
+                Designed And Developed By Mohamed Saeed, all rights reserved, <span class="date"></span>
+            </div>
+        </div>
+        <div class="topBtn"><i class="fa-solid fa-arrow-up"></i></div>
+    </footer>
+</body>
+</html>
